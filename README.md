@@ -92,17 +92,19 @@ Follow these simple steps to start using InstagramCrewAI:
       Use Poetry to install the project dependencies:
 
           cd InstagramCrewAI
+          pip install poetry
+     	  poetry lock
           poetry install
 
-3. Set Up the Environment:
+4. Set Up the Environment:
 
    Create a .env file and add the necessary credentials (such as API keys or Instagram account info).
 
-4. Run the Project:
+5. Run the Project:
 
     Start your Instagram marketing journey by running:
 
-        poetry run python src/instagram/main.py
+        poetry run instagram
 
 ## 🏆 Achieve Instagram Mastery
 
