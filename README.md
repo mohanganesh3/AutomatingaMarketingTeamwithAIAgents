@@ -91,7 +91,6 @@ Follow these simple steps to start using InstagramCrewAI:
 
       Use Poetry to install the project dependencies:
 
-          cd InstagramCrewAI
           pip install poetry
      	  poetry lock
           poetry install
