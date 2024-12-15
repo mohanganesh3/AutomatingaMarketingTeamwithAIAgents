@@ -1,0 +1,65 @@
+market_research:
+  description: >
+    Investigate the latest trends, hashtags, and competitor activities on Instagram specific to the industry of this Instagram account. Focus on gathering data that reveals what content performs well in the current year, identifying patterns, preferences, and emerging trends. Ensure the research process is efficient by respecting Instagram’s rate limits. Use caching, schedule tasks, and automate where possible to avoid exceeding the allowed number of API requests.
+  
+  current_date: "{current_date}"
+
+  instagram_account_description: |
+    <INSTAGRAM_ACCOUNT_DESCRIPTION>{instagram_description}</INSTAGRAM_ACCOUNT_DESCRIPTION>
+
+  focus_for_next_week: |
+    <NEXT_WEEK_CONTENT>{topic_of_the_week}</NEXT_WEEK_CONTENT>
+
+  expected_output: >
+    A detailed report that includes:
+      - Relevant hashtags and trends that align with the industry of the Instagram account.
+      - Key competitor activities and content types that have been successful.
+      - A summary of patterns, preferences, and emerging trends based on the gathered data.
+      - Actionable insights for the content team, including suggested hashtags and topics for the next week’s posts.
+      - A note on how the data was collected efficiently without exceeding Instagram’s API rate limits (e.g., using caching, scheduling requests, and handling rate limit errors gracefully).
+
+content_strategy:
+  description: >
+    Based on the market research findings, develop a comprehensive content calendar for a week. The calendar should specify the theme for each day of the week (Monday to Sunday), including preliminary ideas for the content. The calendar should also include the most relevant keywords and hashtags to use for each post, ensuring they align with the identified trends and audience preferences. Use an automated scheduling system to prevent overloading requests to Instagram and avoid rate limit issues.
+
+  expected_output: >
+    A markdown document with:
+      - A detailed week-long content calendar (Monday to Friday).
+      - A brief overview of content ideas for each day.
+      - The most relevant keywords and hashtags to use in each post.
+      - Consideration of how to spread out content publication to manage Instagram’s API requests efficiently.
+
+visual_content_creation:
+  description: >
+    Based on the content strategy for each Instagram post, create detailed descriptions for the visual art to be published on Instagram for each day of the week. Ensure that the descriptions are detailed yet concise and cover all relevant aspects of the image, such as colors, objects, mood, and other important elements. The visual descriptions should align with the content calendar and the identified trends. To avoid overloading the Instagram API, optimize image delivery by pre-creating and scheduling posts in advance.
+
+  expected_output: >
+    A markdown document with detailed descriptions for the images for each Instagram post, including:
+      - Main elements (e.g., objects, colors, and composition).
+      - The overall mood and atmosphere the image should convey.
+      - Any additional visual cues that will help in content creation.
+
+copywriting:
+  description: >
+    Write engaging and relevant copy for each Instagram post, aligning with the strategic themes of the content calendar. The copy should reflect the brand’s voice, encourage audience interaction, and incorporate SEO-friendly keywords and hashtags. Include calls to action and relevant hashtags that will increase the visibility of each post. Ensure that copywriting aligns with the identified trends and is in sync with the overall content strategy. Schedule the posts and copywriting to avoid making too many API requests at once.
+
+  expected_output: >
+    A markdown document containing:
+      - The copy for each Instagram post, formatted by day of the week.
+      - Relevant hashtags and calls to action.
+      - A focus on engagement and SEO optimization.
+      - A reminder to schedule the posts to avoid overuse of Instagram’s API.
+
+report_final_content_strategy:
+  description: >
+    Compile a comprehensive report that outlines the final content strategy for the week. This report should include the market research findings, the content calendar, the copy for each post, and the AI-generated images. The report should also provide a brief rationale for the strategy, explaining how it aligns with the identified trends and audience preferences. Ensure that the data collection and content posting strategies adhere to Instagram’s rate limits, with considerations for scheduling and API call management.
+
+  expected_output: >
+    A markdown report that includes:
+      - **Market Research Findings**: Trends, hashtags, and competitor analysis.
+      - **Content Calendar**: A detailed week-long calendar with content themes and keywords.
+      - **Copy for Each Post**: Engaging copy that aligns with the brand’s voice and SEO best practices.
+      - **Visual Descriptions**: Detailed image descriptions for each post.
+      - **AI-Generated Images**: Visuals created based on the descriptions.
+      - **Rationale for Strategy**: A brief explanation of how the strategy aligns with the audience’s preferences and emerging trends.
+      - **Rate Limit Management**: Notes on how the content creation process was managed efficiently without exceeding Instagram’s API rate limits.
