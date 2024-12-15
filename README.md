@@ -22,25 +22,25 @@ InstagramCrewAI is packed with features that make Instagram marketing effortless
 
 The InstagramCrewAI project is designed to be intuitive, scalable, and powerful. Here’s a quick overview of its structure:
 
-InstagramCrewAI/
-├── knowledge/                       # Data & research files that fuel the AI
-│   └── user_preference.txt          # User-specific preferences for content strategy
-├── src/                             # Core project files for functionality
-│   ├── instagram/                   # Instagram-specific modules
-│   │   ├── config/                  # Configuration files for smooth operation
-│   │   ├── tools/                   # AI-powered tools for research & content creation
-│   │   ├── init.py              # Initial setup for all Instagram functionalities
-│   │   ├── crew.py                  # Core functionality for managing your Instagram strategy
-│   │   └── main.py                  # Main entry point to launch the system
-├── .gitignore                       # Ignore unnecessary files from version control
-├── README.md                        # You’re reading this! 😉
-├── final-content-strategy.md        # Detailed strategy document to guide your content
-├── market_research.md               # In-depth research on Instagram trends and competitors
-├── poetry.lock                      # Lock file for dependencies to ensure stability
-├── pyproject.toml                   # Dependency configuration for the project
-└── visual-content.md                # Blueprint for creating visually engaging content
+	InstagramCrewAI/
+	├── knowledge/                       # Data & research files that fuel the AI
+	│   └── user_preference.txt          # User-specific preferences for content strategy
+	├── src/                             # Core project files for functionality
+	│   ├── instagram/                   # Instagram-specific modules
+	│   │   ├── config/                  # Configuration files for smooth operation
+	│   │   ├── tools/                   # AI-powered tools for research & content creation
+	│   │   ├── init.py              # Initial setup for all Instagram functionalities
+	│   │   ├── crew.py                  # Core functionality for managing your Instagram strategy
+	│   │   └── main.py                  # Main entry point to launch the system
+	├── .gitignore                       # Ignore unnecessary files from version control
+	├── README.md                        # You’re reading this! 😉
+	├── final-content-strategy.md        # Detailed strategy document to guide your content
+	├── market_research.md               # In-depth research on Instagram trends and competitors
+	├── poetry.lock                      # Lock file for dependencies to ensure stability
+	├── pyproject.toml                   # Dependency configuration for the project
+	└── visual-content.md                # Blueprint for creating visually engaging content
 
----
+
 
 ## 💥 **Why InstagramCrewAI?**
 
