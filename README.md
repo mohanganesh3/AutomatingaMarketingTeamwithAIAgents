@@ -1,6 +1,6 @@
-# 🚀 InstagramCrewAI: Your AI-Powered Instagram Marketing Assistant 🤖
+# InstagramCrewAI: Your AI-Powered Instagram Marketing Assistant 
 
-## 🎯 **Mission: Revolutionizing Instagram Marketing with AI** 🌟
+## **Mission: Revolutionizing Instagram Marketing with AI** 🌟
 
 Welcome to **InstagramCrewAI**, the ultimate toolkit that combines the power of AI with data-driven insights to take your Instagram game to the next level. Whether you’re a solo influencer, a growing brand, or an experienced marketer, InstagramCrewAI is designed to optimize your content strategy, engage your audience, and amplify your presence on Instagram. 🌍✨
 
