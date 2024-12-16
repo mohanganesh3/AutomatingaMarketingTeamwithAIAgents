@@ -8,7 +8,7 @@ Think of InstagramCrewAI as your **personal AI-powered Instagram strategist**, r
 
 ## Instagram Marketing Team with Crewai - Project Demo
 
-## Step 1: Provide Inputs
+# Step 1: Provide Inputs
 
 ### To begin, you’ll need to provide two key inputs for the project:
 
@@ -29,65 +29,67 @@ Think of InstagramCrewAI as your **personal AI-powered Instagram strategist**, r
 
 These inputs will help the project generate specific, tailored content for your Instagram marketing strategy.
 
-## Step 2: Output Generation
+# Step 2: Output Generation
 
 After providing the inputs, the project generates the following output files:
-# 1.	final-content-strategy.md:
+## 1.	final-content-strategy.md:
 	•	This file contains the detailed content strategy, including industry trends, relevant hashtags, and key marketing insights for your Instagram page.
 	•	Example Output:
 
-## Final Content Strategy
+### Final Content Strategy
 
-## Page Description
+### Page Description
 "Stay on top of the latest fashion trends, influencer collaborations, and seasonal styles. Our page provides expert insights into fashion trends, style tips, and sustainable fashion choices. Join us for exclusive looks, behind-the-scenes content, and the hottest fashion news."
 
-## Topic of the Week
+### Topic of the Week
 "Sustainable Fashion Trends and Eco-Friendly Styling Tips"
 
 
-# 2.	market_research.md:
+## 2.	market_research.md:
 	•	This file includes research insights, competitor activities, and industry trends to inform your marketing decisions.
 	•	Example Output:
 
-## Market Research
+### Market Research
 
-## Key Competitor Activities
+### Key Competitor Activities
 - Influencer collaborations in fashion
 - Focus on eco-friendly and sustainable fashion lines
 - Seasonal trends in fashion marketing
 
-## Emerging Trends
+### Emerging Trends
 - Sustainable fashion is expected to grow rapidly in the coming years
 - The rise of fashion influencers on Instagram
 - Seasonal fashion trends, including autumn/winter and spring/summer collections
 
 
-# 3.	visual-content.md:
+## 3.	visual-content.md:
 	•	This file provides visual content suggestions, including seasonal marketing themes and influencer collaborations.
 	•	Example Output:
 
-## Visual Content
+### Visual Content
 
-## Seasonal Marketing Strategies
+### Seasonal Marketing Strategies
 - Create visuals around upcoming fashion events (e.g., Fashion Week).
 - Showcase eco-friendly fashion brands and influencer collaborations.
 
-## Hashtags for Engagement
+### Hashtags for Engagement
 - Use popular fashion-related hashtags like #SustainableFashion, #EcoFriendlyStyle, #FashionTrends, and #InfluencerStyle.
 
 # Step 3: Actionable Insights
 
-Based on the generated .md files, you will have:
+## Based on the generated .md files, you will have:
 	•	A final content strategy outlining your Instagram marketing direction, including your page description and the topic of the week.
+ 
 	•	A market research document that helps you stay informed on current trends, competitor activities, and emerging trends in the fashion industry.
+ 
 	•	Visual content recommendations to enhance your marketing efforts and drive engagement, including suggestions for influencer collaborations, seasonal content, and popular hashtags.
 
-These outputs will guide your marketing strategy and provide you with a comprehensive plan for your Instagram presence.
+### These outputs will guide your marketing strategy and provide you with a comprehensive plan for your Instagram presence.
 
-This demo explains how the project generates key marketing documents from your inputs, helping your team plan and execute an effective Instagram marketing strategy in the fashion industry.
+### This demo explains how the project generates key marketing documents from your inputs, helping your team plan and execute an effective Instagram marketing strategy in the fashion industry.
 
 
-## 🧠 **What InstagramCrewAI Can Do For You**
+# 🧠 **What InstagramCrewAI Can Do For You**
 
 InstagramCrewAI is packed with features that make Instagram marketing effortless and effective:
 
