@@ -75,7 +75,7 @@ After providing the inputs, the project generates the following output files:
 ## Hashtags for Engagement
 - Use popular fashion-related hashtags like #SustainableFashion, #EcoFriendlyStyle, #FashionTrends, and #InfluencerStyle.
 
-Step 3: Actionable Insights
+# Step 3: Actionable Insights
 
 Based on the generated .md files, you will have:
 	•	A final content strategy outlining your Instagram marketing direction, including your page description and the topic of the week.
