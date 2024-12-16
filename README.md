@@ -32,11 +32,11 @@ These inputs will help the project generate specific, tailored content for your 
 ## Step 2: Output Generation
 
 After providing the inputs, the project generates the following output files:
-	1.	final-content-strategy.md:
+# 1.	final-content-strategy.md:
 	•	This file contains the detailed content strategy, including industry trends, relevant hashtags, and key marketing insights for your Instagram page.
 	•	Example Output:
 
-# Final Content Strategy
+## Final Content Strategy
 
 ## Page Description
 "Stay on top of the latest fashion trends, influencer collaborations, and seasonal styles. Our page provides expert insights into fashion trends, style tips, and sustainable fashion choices. Join us for exclusive looks, behind-the-scenes content, and the hottest fashion news."
@@ -45,11 +45,11 @@ After providing the inputs, the project generates the following output files:
 "Sustainable Fashion Trends and Eco-Friendly Styling Tips"
 
 
-	2.	market_research.md:
+# 2.	market_research.md:
 	•	This file includes research insights, competitor activities, and industry trends to inform your marketing decisions.
 	•	Example Output:
 
-# Market Research
+## Market Research
 
 ## Key Competitor Activities
 - Influencer collaborations in fashion
@@ -62,11 +62,11 @@ After providing the inputs, the project generates the following output files:
 - Seasonal fashion trends, including autumn/winter and spring/summer collections
 
 
-	3.	visual-content.md:
+# 3.	visual-content.md:
 	•	This file provides visual content suggestions, including seasonal marketing themes and influencer collaborations.
 	•	Example Output:
 
-# Visual Content
+## Visual Content
 
 ## Seasonal Marketing Strategies
 - Create visuals around upcoming fashion events (e.g., Fashion Week).
