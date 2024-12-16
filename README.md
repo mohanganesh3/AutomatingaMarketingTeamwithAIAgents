@@ -13,12 +13,14 @@ Think of InstagramCrewAI as your **personal AI-powered Instagram strategist**, r
 ### To begin, you’ll need to provide two key inputs for the project:
 
 1.	Enter the page description here:
+   
 	•	Example Input:
 
 		"Stay on top of the latest fashion trends, influencer collaborations, and seasonal styles. Our page provides expert insights into fashion trends, style tips, and sustainable fashion choices. Join us for exclusive looks, behind-the-scenes content, and the hottest fashion news."
 
 
 2.	Enter the topic of the week here:
+   
 	•	Example Input:
 
 			"Sustainable Fashion Trends and Eco-Friendly Styling Tips"
