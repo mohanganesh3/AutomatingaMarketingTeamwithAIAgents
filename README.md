@@ -58,14 +58,14 @@ Now you will have to install the dependencies and create a .env file with your S
 
 # Adding our agents and tasks
 
-Now that we have our agents and tasks defined, we can add them to our crew. We will be using the @agent and @task decorators to define our agents and tasks. We can go to src/my_crew/crew.py and add our agents and tasks there.
+Now that we have our agents and tasks defined, we can add them to our crew. We will be using the **@agent** and **@task** decorators to define our agents and tasks. We can go to **src/my_crew/crew.py** and add our agents and tasks there.
 
 
 # Creating Tools that work
 
-The tools are the functions that your agents will use to perform their tasks. They are defined in the src/my_crew/tools folder. You can create as many tools as you want, but it is recommended to keep them simple and focused on a single task.
+The tools are the functions that your agents will use to perform their tasks. They are defined in the **src/my_crew/tools folder**. You can create as many tools as you want, but it is recommended to keep them simple and focused on a single task.
 
-In our case, we will be using Serper API to search the internet for information about a given topic. That tool will be used by our market_researcher agent to perform its tasks. We will also define a tool to open a webpage and read its content. This tool will require the WebBaseLoader class from the langchain_community package (for which we have to install beautifultsoup4 and requests):
+In our case, we will be using Serper API to search the internet for information about a given topic. That tool will be used by our **market_researcher** agent to perform its tasks. We will also define a tool to open a webpage and read its content. This tool will require the **WebBaseLoader** class from the **langchain_community** package (for which we have to install **beautifultsoup4** and **requests**):
 
 
 # Testing our crew
@@ -73,5 +73,24 @@ In our case, we will be using Serper API to search the internet for information 
 Now that we have our crew defined, we can test it by running the following command:
 
 	$ poetry run my_crew
+
+# My testing results
+
+After running my crew, I got the following results:
+
+# Giving Agents Memory
+
+Communication between agents was good, but we did not implement memory here. This means that the agents were not able to remember information from previous tasks.
+
+To be precise, at some pointm the Copy Writer agent asked the Market Researcher agent for information about the latest hashtags, and the Market Researcher agent started a whole new search on the internet. This is not ideal because the Market Researcher agent had already done that search before and even produced a report about it. It just did not remember that information.
+
+This could also be solved by manually assigning the output of specific previous tasks as context to the tasks that need them. But that does not seem to be very easily done when using the CrewAI setup provided by the CLI.
+
+
+# Delegating Tasks
+
+In earlier test, some agents over-delegated tasks to other agents. This is not ideal because it can lead to too many API calls and raise the cost of running the crew. That is why I set the allow_delegation parameter to false in the visual_creator and copywriter agents.
+
+Try to do this for all your agents that do not need to delegate tasks. This will make your crew more efficient and cost-effective.
 
 🌟 InstagramCrewAI – Your AI Marketing Crew on Instagram 🌟
