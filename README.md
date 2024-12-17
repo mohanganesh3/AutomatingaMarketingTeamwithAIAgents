@@ -4,7 +4,8 @@
 
 Think of InstagramCrewAI as your **personal AI-powered Instagram strategist**, ready to provide you with the tools and insights you need to succeed. This project uses state-of-the-art AI technologies to create engaging visuals, write impactful captions, and design data-backed strategies for your Instagram account. 📈📸
 
-![Screenshot 2024-12-16 at 6 35 30 PM](https://github.com/user-attachments/assets/e7d12e9d-d130-418e-befa-0a59e90f83c2)
+<img width="1206" alt="Screenshot 2024-12-17 at 2 13 32 PM" src="https://github.com/user-attachments/assets/f56d33ea-bce5-480f-b23a-17575b948da9" />
+
 
 # Demo
 
