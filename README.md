@@ -41,12 +41,13 @@ This will create a new directory called my-crew with the following structure:
 	├── pyproject.toml
 	├── .env.example
  
-As you can see, the CLI creates everything you need for a new crew project. The most important things to consider here are:
+### As you can see, the CLI creates everything you need for a new crew project. The most important things to consider here are:
 
-	Your agents configuration is defined in **src/my_crew/config/agents.yaml**. Here is where you will write their backstories, goals and other params that you need to define your agents.
-	Your tasks configuration is defined in **src/my_crew/config/tasks.yaml**. Here is where you define the tasks that your agents will perform.
+Your agents configuration is defined in **src/my_crew/config/agents.yaml**. Here is where you will write their backstories, goals and other params that you need to define your agents.
+
+Your tasks configuration is defined in **src/my_crew/config/tasks.yaml**. Here is where you define the tasks that your agents will perform.
  
-	Your crew is defined in **src/my_crew/crew.py**. Here is where you define your crew’s agents and their tasks. It contains all the decorators and functions you need to define your crew.This file loads the configuration from the **config** folder and creates the agents and tasks.
+Your crew is defined in **src/my_crew/crew.py**. Here is where you define your crew’s agents and their tasks. It contains all the decorators and functions you need to define your crew.This file loads the configuration from the **config** folder and creates the agents and tasks.
  
 Now you will have to install the dependencies and create a .env file with your Serper API key. You can get your Serper API key by signing up at Serper.
 
